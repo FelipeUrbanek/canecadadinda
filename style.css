@@ -180,9 +180,22 @@ a{
   background-position-x: center;
 }
 
+
 @media screen and (max-width: 768px) {
   .home{
     padding: 10px;
+  }
+  .home-esquerda{
+    order: 2;
+  }
+  .home-centro{
+    order: 1;
+  }
+  .home-direita{
+    order: 3;
+  }
+  .produtos{
+    padding: 10px !important;
   }
   .header{
     padding: 15px 20px;
@@ -190,5 +203,102 @@ a{
   .navbar-brand{
     font-size: 1.5rem;
   }
+  .produtosrow{
+    flex-direction: column-reverse !important;
+  }
+  .p-produtos{
+    padding: 10px !important;
+  }
+  .p-produtos img , .home-centro img{
+    width: 80%;
+    align-self: center;
+  }
+
+  .esq-texto{
+    font-size: 3rem;
+  }
+  .containerpreco h3, .containerpreco h4, .containerpreco h2, .containerpreco p{
+    transform: scale(0.8);
+    
+  }
+  .containerpreco{
+    gap: 0px !important;
+    padding: 0px;
+
+  }
+  
+}
+
+/* //CONHEÇA NOSSOS PRODUTOS */
+.produtos .row h1 {
+  color: #292019;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
 }
   
+.produtos{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+
+}
+
+
+.p-produtos{
+  padding: 50px ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+/*   margin: 0 auto; */
+  margin: initial 0px;
+}
+
+.produtosrow{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap !important;
+}
+
+
+.produtosh1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #292019 !important;
+  text-decoration: none;
+  margin-left: -10px;
+  font-family: "Abhaya Libre", sans-serif;
+}
+.produtos-span{
+  color: #72696A;
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-produtos h2{
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: #292019 !important;
+  text-decoration: none;
+  margin-left: -10px;
+  font-family: "Abhaya Libre", sans-serif;
+}
+.p-produtos span{
+  font-size: 0.8rem;
+  color: #72696A !important;
+  text-decoration: none;
+  margin-left: -10px;
+  font-family: "Poppins", sans-serif;
+}
