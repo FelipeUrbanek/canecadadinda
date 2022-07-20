@@ -197,6 +197,23 @@ a{
   .produtos{
     padding: 10px !important;
   }
+  .lineprodutos{
+    padding: 10px !important;
+    margin: 10px 0px !important;
+  }
+  .lineprodutos .row{
+    margin: 10px 0px !important;
+  }
+  .lineprodutos img{
+    width: 70%;
+  }
+  .produtoln span{
+    font-size: 0.7rem !important;
+  }
+  .produtoln h2{
+    font-size: 1.5rem !important;
+  }
+
   .header{
     padding: 15px 20px;
   }
@@ -301,4 +318,37 @@ a{
   text-decoration: none;
   margin-left: -10px;
   font-family: "Poppins", sans-serif;
+}
+
+
+.lineprodutos{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+
+}
+
+.produtoln{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produtoln h2{
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #292019 !important;
+  text-decoration: none;
+  font-family: "Abhaya Libre", sans-serif;
+}
+
+.produtoln span{
+  font-size: 0.8rem;
+  color: #72696A !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+
 }
