@@ -352,3 +352,6 @@ a{
   font-family: "Poppins", sans-serif;
 
 }
+.iso{
+  isolation: isolate !important;
+}
