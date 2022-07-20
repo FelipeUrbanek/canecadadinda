@@ -1,3 +1,11 @@
+//COMEÇAR NO BRANCO
+//
+$(document).ready(function () {
+  if (localStorage.darkmode === undefined) {
+    localStorage.setItem('darkmode', 'false')
+  }
+})
+
 !(function (e, t) {
   'object' == typeof exports && 'object' == typeof module
     ? (module.exports = t())
@@ -116,8 +124,8 @@
             t = Object.assign(
               {},
               {
-                bottom: '32px',
-                right: '32px',
+                bottom: '12px',
+                right: '22px',
                 left: 'unset',
                 time: '0.3s',
                 mixColor: '#fff',
@@ -135,7 +143,7 @@
                   .concat(t.mixColor, ';\n        transition: all ')
                   .concat(
                     t.time,
-                    ' ease;\n        mix-blend-mode: difference;\n      }\n\n      .darkmode-layer--button {\n        width: 2.9rem;\n        height: 2.9rem;\n        border-radius: 50%;\n        right: '
+                    ' ease;\n        mix-blend-mode: difference;\n      }\n\n      .darkmode-layer--button {\n        width: 1.9rem;\n        height: 1.9rem;\n        border-radius: 50%;\n        right: '
                   )
                   .concat(t.right, ';\n        bottom: ')
                   .concat(t.bottom, ';\n        left: ')
@@ -145,7 +153,7 @@
                   )
                   .concat(
                     t.buttonColorDark,
-                    ';\n        width: 3rem;\n        height: 3rem;\n        position: fixed;\n        border-radius: 50%;\n        border:none;\n        right: '
+                    ';\n        width: 2rem;\n        height: 2rem;\n        position: fixed;\n        border-radius: 50%;\n        border:none;\n        right: '
                   )
                   .concat(t.right, ';\n        bottom: ')
                   .concat(t.bottom, ';\n        left: ')
@@ -257,7 +265,7 @@
                     document.body.classList.toggle('darkmode--activated'),
                     window.localStorage.setItem('darkmode', !t),
                     n.setAttribute('aria-label', 'De-activate dark mode'),
-                    n.setAttribute('aria-checked', 'false')
+                    n.setAttribute('aria-checked', 'true')
                 }
               }
             },
