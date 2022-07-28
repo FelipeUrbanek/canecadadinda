@@ -1,8 +1,16 @@
 //COMEÇAR NO BRANCO
 //
-$(document).ready(function () {
+$(document).ready(async function initial() {
   if (localStorage.darkmode === undefined) {
     localStorage.setItem('darkmode', 'false')
+    $('.nav-item a').css('color', 'red !important')
+  } else if (localStorage.darkmode === 'true') {
+    localStorage.setItem('darkmode', 'true')
+    $('.nav-item a').css('color', 'red !important')
+  } else {
+    // localStorage.darkmode === 'false'
+    console.log('darkmode')
+    $('.nav-item a').css('color', 'red !important')
   }
 })
 

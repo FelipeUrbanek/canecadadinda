@@ -355,3 +355,200 @@ a{
 .iso{
   isolation: isolate !important;
 }
+
+.motivos{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+}
+
+.motivos1 p{
+  font-size: 1.0rem;
+  color: #72696A !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.motivos1 h3{
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: #292019 !important;
+  text-decoration: none;
+  font-family: "Abhaya Libre", sans-serif;
+}
+
+.motivos2{
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.motivos3{
+  display:flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.motivos4{
+  display:flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.motivos4 h5{
+  font-size: 1.5rem;
+  color: #292019 !important;
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 600;
+}
+
+.motivos4 p{
+  font-size: 1.0rem;
+  color: #72696A !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+
+
+}
+
+.marcas{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+}
+
+.marcas h3{
+ justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 2.0rem;
+  font-family: "poppins", sans-serif;
+  color: #72696A !important;
+}
+
+.marcasimg{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.questoes{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+}
+
+.questoes h3{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 4.0rem;
+  font-family: "Abhaya Libre", sans-serif;
+  color: #292019 !important;
+  font-weight: 900;
+
+}
+.questoes .p-5 p{
+  font-size: 1.5rem;
+  font-family: "Abhaya Libre", sans-serif;
+  color: #292019 !important;
+  font-weight: 600;
+}
+.questoes .p-5 span{
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  color: #72696A !important;
+}
+.questoes .p-5 p::before{
+  content: "➕";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.questoes .p-5 span{
+  display: none;
+  transition: all;
+}
+.active{
+  display: block !important;
+  transition: linear 0.5s;
+}
+
+.bg-faixa{
+  background-color: #EECCB8;
+}
+.faixa{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+}
+
+.faixa-esquerda{
+  display:  flex !important;; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px 0px 0px 5px;
+}
+.faixa-esquerda h4{
+  font-size: 2.5rem;
+  font-family: "Abhaya Libre", sans-serif;
+  color: #00566B !important;
+  font-weight: 600;
+
+}
+
+.faixa-esqueda span{
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  color: #72696A !important;
+  
+}
+
+.faixa-centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faixa-direita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.faixa-direita button{
+  background-color: #00566B;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
