@@ -552,3 +552,108 @@ a{
   font-weight: 600;
   cursor: pointer;
 }
+
+.footer-bg{
+ background-color:  #E5E5E5;
+}
+
+
+.footer{
+  margin: 0 auto !important;
+  max-width: 1440px;
+  display: flex;
+  width: 100%;
+  padding: 39px 75px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+  color: black;
+}
+
+.footer-esquerda{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-esquerda p{
+  font-size: 1.0rem;
+  color: #72696A !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.footer-esquerda h6{
+  font-size: 2.0rem;
+  font-family: "Abhaya Libre", sans-serif;
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+.footer-centro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-centro p{
+  font-size: 1.0rem;
+  color: #72696A !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social i{
+  font-size: 2rem;
+}
+
+.footer-direita{
+  display: flex !important;;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.email-bg{
+  padding: 15px;
+  background-color: #292019;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.email-bg input{
+  background-color: #ffffff00;
+  border: #f8f8f800;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.email-bg input::target-text{
+  color: #f32d2d;
+}
+.email-bg input::placeholder{
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.email-bg button{
+  background-color: #00566B;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+
+}
