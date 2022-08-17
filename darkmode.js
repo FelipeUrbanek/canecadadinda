@@ -3,16 +3,21 @@
 $(document).ready(async function initial() {
   if (localStorage.darkmode === undefined) {
     localStorage.setItem('darkmode', 'false')
-    $('.nav-item a').css('color', 'red !important')
   } else if (localStorage.darkmode === 'true') {
     localStorage.setItem('darkmode', 'true')
-    $('.nav-item a').css('color', 'red !important')
+    /*    $('.navbar-brand').toggleClass('inverter') */
+    $('a').toggleClass('inverter')
   } else {
     // localStorage.darkmode === 'false'
     console.log('darkmode')
-    $('.nav-item a').css('color', 'red !important')
   }
 })
+
+window.onload = function () {
+  $('body > button').click(function () {
+    $('a').toggleClass('inverter')
+  })
+}
 
 !(function (e, t) {
   'object' == typeof exports && 'object' == typeof module
