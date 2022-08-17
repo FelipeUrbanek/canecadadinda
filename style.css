@@ -704,3 +704,6 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
+.inverter {
+  filter: invert(100%) !important;
+}
