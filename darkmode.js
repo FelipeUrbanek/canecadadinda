@@ -7,6 +7,7 @@ $(document).ready(async function initial() {
     localStorage.setItem('darkmode', 'true')
     /*    $('.navbar-brand').toggleClass('inverter') */
     $('a').toggleClass('inverter')
+    $('.navbar-toggler-icon').toggleClass('inverter')
   } else {
     // localStorage.darkmode === 'false'
     console.log('darkmode')
@@ -16,6 +17,7 @@ $(document).ready(async function initial() {
 window.onload = function () {
   $('body > button').click(function () {
     $('a').toggleClass('inverter')
+    $('.navbar-toggler-icon').toggleClass('inverter')
   })
 }
 
