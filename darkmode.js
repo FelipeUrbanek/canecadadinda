@@ -8,6 +8,8 @@ $(document).ready(async function initial() {
     /*    $('.navbar-brand').toggleClass('inverter') */
     $('a').toggleClass('inverter')
     $('.navbar-toggler-icon').toggleClass('inverter')
+    $('.containerpreco h2').toggleClass('inverter')
+    $('.containerpreco p').toggleClass('inverter')
   } else {
     // localStorage.darkmode === 'false'
     console.log('darkmode')
@@ -18,6 +20,8 @@ window.onload = function () {
   $('body > button').click(function () {
     $('a').toggleClass('inverter')
     $('.navbar-toggler-icon').toggleClass('inverter')
+    $('.containerpreco h2').toggleClass('inverter')
+    $('.containerpreco p').toggleClass('inverter')
   })
 }
 
